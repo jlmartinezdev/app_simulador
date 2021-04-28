@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ventana6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="left"
+        android:layout_weight="1.3"
+        android:background="@color/gris"
+        android:orientation="horizontal"
+        android:padding="1dp">
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:src="@drawable/logo_eleccion_r" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Eleccion: Caazapa"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Departamento: Caazapa"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Distrito: 3 de Mayo"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:text="Zona:     Local:      Mesa:"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/black">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Candidatos a la JUNTA MUNICIPAL"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:src="@drawable/header_r" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:background="@drawable/bordes"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/v6_lista"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="LISTA 500"
+            android:textSize="11sp"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/v6_partido"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.3"
+            android:text="Partido X"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listaconsejales"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
+

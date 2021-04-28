@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jlmartinez.votos2021">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_44"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_44_round"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBar">
+        <activity android:name=".ventana10" android:screenOrientation="landscape"></activity>
+        <activity android:name=".ventana9" android:screenOrientation="landscape" />
+        <activity android:name=".ventana8" android:screenOrientation="landscape" />
+        <activity
+            android:name=".ventana7"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ventana6"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ventana5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ventana4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ventana3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ventana2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

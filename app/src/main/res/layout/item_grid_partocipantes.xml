@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/seleccionado"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bordes"
+        android:orientation="vertical"
+        android:paddingLeft="3dp">
+
+        <TextView
+            android:id="@+id/participante_lista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="LISTA 500"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/participante_partido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Partido Democracia"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/participante_partidoabv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="PDD"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
